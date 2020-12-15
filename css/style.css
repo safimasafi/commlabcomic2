@@ -1,0 +1,48 @@
+body {
+  background-color: lightgreen;
+
+}
+#center {
+  LEFT: 50%;
+  POSITION: absolute;
+  TOP: 50%
+}
+
+#DHTMLBOOK {
+  LEFT: -375px;
+  VISIBILITY: hidden;
+  WIDTH: 760px;
+  POSITION: relative;
+  TOP: -160px;
+  HEIGHT: 520px
+}
+
+#TXTBOX {
+  FONT-SIZE: 0.8em;
+  WIDTH: 410px;
+  COLOR: #aba193;
+  FONT-FAMILY: verdana;
+  POSITION: absolute;
+  TOP: 150px;
+  TEXT-ALIGN: center}
+
+.page {
+  OVERFLOW: hidden;
+  WIDTH: 50%;
+  CURSOR: pointer;
+  POSITION: absolute;
+  HEIGHT: 100%
+}
+
+.right {
+  LEFT: 50%}
+
+.turn{
+  background:rgb(34,139,34);
+}
+
+.img {
+  WIDTH: 200%;
+  POSITION: absolute;
+    HEIGHT: 100%}
+

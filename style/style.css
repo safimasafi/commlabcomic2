@@ -1,0 +1,289 @@
+html
+{ height: 100%;}
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', sans-serif;
+  background: #F0EFE2 url(background1.jpg);
+    background-position: center;
+  background-size: 100%;
+  color: darkblue;
+}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: darkblue;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h2
+{ font: normal 175% 'century gothic', sans-serif;
+  color: #FFF;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% sans-serif;
+  color: #FFF;}
+
+h5, h6
+{ font: italic 95% sans-serif;
+  padding: 0 0 15px 0;
+  color: #FFF;}
+
+h6
+{ color: #fff;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #FFF;}
+
+a:hover
+{ text-decoration: none;}
+
+#main, #logo, #menubar, #site_content
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: transparent;
+  height: 240px;}
+
+#logo
+{ width: 825px;
+  position: relative;
+  height: 168px;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 20px;
+  left: 0;}
+
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #FFF;}
+
+#logo_text h2
+{ font-size: 100%;
+  padding: 4px 0 0 0;
+  color: #FFF;}
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#site_content
+{ width: 854px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 15px 25px 20px 20px;
+  background: transparent url(transparent_light.png) repeat;} 
+
+.sidebar
+{ float: left;
+  width: 190px;
+  padding: 0 15px 20px 15px;}
+
+#content
+{ text-align: left;
+  float: right;
+  width: 595px;
+  padding: 0;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;
+}
+
+#colours
+{ height: 0px;
+  text-align: right;
+  padding: 66px 16px 0px 300px;}
+
+#center {
+  LEFT: 50%;
+  POSITION: absolute;
+  TOP: 50%
+}
+
+#DHTMLBOOK {
+  LEFT: -375px;
+  VISIBILITY: hidden;
+  WIDTH: 760px;
+  POSITION: relative;
+  TOP: -160px;
+  HEIGHT: 520px
+}
+
+#TXTBOX {
+  FONT-SIZE: 0.8em;
+  WIDTH: 410px;
+  COLOR: #aba193;
+  FONT-FAMILY: verdana;
+  POSITION: hidden;
+  TOP: 320px;
+  TEXT-ALIGN: center}
+
+.page {
+  OVERFLOW: hidden;
+  WIDTH: 50%;
+  CURSOR: pointer;
+  POSITION: absolute;
+  HEIGHT: 100%
+}
+
+.right {
+  LEFT: 50%}
+
+.turn{
+  background: lightblue;
+}
+
+.img {
+  WIDTH: 200%;
+  POSITION: absolute;
+  HEIGHT: 100%
+}
+
+#img10 {
+  position: absolute; 
+  top: 20px; 
+  left: 5%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper {
+  position: relative;
+}
+.showtext + div {
+  position: relative;
+  left: 150px;
+  top: 15px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext:hover + div {
+  display: block;
+}
+
+#img11 {
+  position: absolute; 
+  top: 5; 
+  left: 2%;
+  min-width: 10%;
+    min-height: 10%;}
+
+#img12 {
+  position: absolute; 
+  top: 320px; 
+  left: 5%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper1 {
+  position: relative;
+}
+.showtext1 + div {
+  position: relative;
+  left: 150px;
+  top: 315px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext1:hover + div {
+  display: block;
+}
+
+#img13 {
+  position: absolute; 
+  top: 1%; 
+  left: 80%;
+  min-width: 2%;
+min-height: 2%;}
+
+.imgwrapper2 {
+  position: relative;
+}
+.showtext2 + div {
+  position: relative;
+  left: 84%;
+  top: 7%;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext2:hover + div {
+  display: block;
+}
+
+#img14 {
+  position: absolute; 
+  top: 340px; 
+  right: 7%;
+  min-width: 2%;
+  min-height: 2%;}
+
+.imgwrapper4 {
+  position: relative;
+}
+.showtext4 + div {
+  position: relative;
+  right: 7px;
+  top: 320px;
+  display: none;
+  pointer-events: none;
+  font-size: 20px;
+  width: 250px;
+}
+.showtext4:hover + div {
+  display: block;
+}
